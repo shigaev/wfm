@@ -40,7 +40,7 @@ async function linkClickHandler(event) {
 }
 
 function renderList(list = []) {
-    if (list.length) {
+    if (list && list.length) {
         return `
         <ul>
             ${list
